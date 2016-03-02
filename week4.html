@@ -1,0 +1,108 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+    <title>Week4 Activities</title>
+    </head>
+     <style>
+#header {
+    background-color:yellow;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+</style> 
+    <body style="background-color:skyblue">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>
+                <a class="page-scroll" href="index.html">Home</a>
+      
+                <a class="page-scroll" href="assignments.html">Back</a>
+      </h1>
+                <h1 style="color:green"><strong>Week 4 Assignment: - Making circuit Board by Machining</strong></h1>
+                    <p>The files were downloaded from Fabisp <a href="http://fab.cba.mit.edu/content/projects/fabisp/">here</a>  the files were in different formats of schematics and brd. Use Eagle to open them in ordr to create Gerber Files.
+                            <img src="img/week4b.jpg" alt="assignment" width="400px" height="300px"/>
+                                     <img src="img/week4c.jpg" alt="assignment" width="500px" height="300px"/>
+                            <img src="img/week41.jpeg" alt="assignment" width="500px" height="300px"/><br
+                        
+                        After the generation of the Gerber files, transfer the gerber files to
+                                                                                                                          
+                        <<a href="http://www.bungard.de/index.php/en/products/software/isocam-5-0">IsoCAM</a> which reads Gerber and drill files. It is also used for convertion of data and editing. The data to be drilled is saved as .ne</p>
+                                    
+                                    <img src="img/week42.jpeg" alt="assignment" width="500px" height="400px"/>
+                        
+                                            <img src="img/week43.jpeg" alt="assignment" width="500px" height="400px"/><br
+                        
+                                                                                                     
+                        <p>
+                From here, we need to create a milling data and save it . it will automatically take the default extention.
+                        In our case we use the Computer Controlled Drilling and Milling Machine and the RoutePro 3000 to do the milling and drilling.
+                        I did all the settings and trying them fro the base, thickness under general; I the X and Y offsets leaving the scale at 10. The material settings were abit obvious leaving them at Length 160, Width 100 and Thichness of the copper at 1.36mm.</p>
+                        
+                        
+                        <img src="img/week44.jpeg" alt="Ready" width="600px" height="400px"/> 
+    
+                        <img src="img/week45.jpeg" alt="Ready" width="600px" height="400px"/>
+                                                                                                 
+                                                                                                 
+                        <p>From here, I proceeded to the Machine where, I fixed the the workpiece on top of the base (sacrificial board). Unfortunately the cello tate I was using was not sticky enoufg and the pcb was not so flat on the board. This was evident as some lines could be milled dipper compared to other.<br>
+                            <a href="https://youtu.be/q8ODrEg7Eq8">Watch work in progress</a><br>                                  
+                            After the milling, I brushed off the dusts and here is my finished board
+    
+    Apart from Computer Controlled Milling of PCB, I opted to try the <strong>Etching also known as the (Wet Process) process</strong> to compare the results. Here, below were the processes;
+    <li> After the download of the artwork as per the assignment, printing it either by using kiCAD or IsoCAM.
+        <ol>Open the board file onto Eagle</ol>
+        <ol>Generate Gerber files</ol>
+        <ol>Use IsoCAM or KiCAD to print making sure that it is dark enough</ol>
+        </li>
+        <img src="img/et1.jpeg" alt="Print out" width="600px" height="400px"/>
+        <li>Exposing the artwork on the board. 
+            <ol>you let the vacuum to hold the PCB firmly</ol>
+            <ol>Turn on the lights for the set time; in this case it was 2 mins</ol>
+            <ol>Once you are done, move to the next process</ol></li>
+            <li>Etching Station
+                
+                       <img src="img/et3.jpeg" alt="Finished work" width="600px" height="400px"/>
+                <img src="img/et2.jpeg" alt="Etching" width="600px" height="400px"/>
+                
+                                                                                              
+                <ol>Here, dip the PCB in the developer and continuously chech if done</ol>
+                <ol>Echant is the next stage where the temperature is monitored as the chemical disolves away the copper; 21 degrees celcius for 3 minutes was used</ol>
+                <ol>Now the PCB is ready and wash it clean in the available water</ol></li>
+        </p>
+                         <a href="https://youtu.be/q8ODrEg7Eq8">Watch work in progress</a>
+
+    <p><strong>Lessons learnt</strong><br>
+    On the second trial I followed all the processed above well but when it comes to settings, I did not get it correctly and realised that it was milling much dipper aand so I stopped the work from the comp to work on the settings. I did not remember to replace the test tools in their correct positions and chuck before restarting . This error became very expensive when our Test tool broke in the process</p>
+            
+            
+            
+   
+            <img src="img/error.png"alt="The error" width="1200px" height="700px"/>
+            
+
+                    </div>
+                </div>
+            </section>
+        </body>
+    </html>
